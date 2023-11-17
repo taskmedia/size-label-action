@@ -1,6 +1,1 @@
-.*
-!.dockerignore
-!.eslintrc.json
-!.gitignore
-
 node_modules/
