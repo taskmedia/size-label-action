@@ -1,0 +1,31 @@
+name: PR Labeling
+
+on:
+  pull_request_target:
+    types:
+    - opened
+    - synchronize
+    - reopened
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  labeling:
+    name: Label PRs (size and chart)
+
+    runs-on: [ubuntu-latest]
+
+    steps:
+    - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+    - uses: actions/labeler@ac9175f8a1f3625fd0d4fb234536d26811351594 # v4.3.0
+      with:
+        configuration-path: ".github/configs/labeler.yaml"
+        repo-token: "${{ secrets.GITHUB_TOKEN }}"
+        sync-labels: true
+
+    - name: size-label
+      uses: ./
+      env:
+        GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
