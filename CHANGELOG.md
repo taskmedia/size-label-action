@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.1.0](https://github.com/taskmedia/size-label-action/compare/v1.0.0...v1.1.0) (2023-11-17)
+
+
+### Features
+
+* add yarn steps to release binary ([0e24a4c](https://github.com/taskmedia/size-label-action/commit/0e24a4c71de1a116bc7bffff3ccc6292b8d37dd8))
+
+
+### Bug Fixes
+
+* **ci:** checkout rp branch when commiting ([16800ca](https://github.com/taskmedia/size-label-action/commit/16800cac4e773e8f650d24c8c566016053290d3b))
+* **ci:** get yarn dependencies on release wf ([9c958fc](https://github.com/taskmedia/size-label-action/commit/9c958fca8569ea2a44f295e1a8ba14143dcfe6b0))
+* **ci:** skip node installation ([5f6ed1c](https://github.com/taskmedia/size-label-action/commit/5f6ed1c1e8f8d9314a41a2b5d6d6c7178e2759fc))
+* **ci:** trigger build if rpa has pr action ([fce8235](https://github.com/taskmedia/size-label-action/commit/fce8235869dc594566f4a5e6f94f2bca9699b406))
+* **ci:** use yarn for prepublish ([ca0d60a](https://github.com/taskmedia/size-label-action/commit/ca0d60a9d39353998dd8d51274e51fb1daf3cc4c))
+
+
+### Miscellaneous Chores
+
+* **build:** build dist for release ([f0b4421](https://github.com/taskmedia/size-label-action/commit/f0b442190a861a02812f5c64e1e91347ea4af4ca))
+
 ## 1.0.0 (2023-11-17)
 
 
