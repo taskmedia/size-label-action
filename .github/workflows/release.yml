@@ -30,6 +30,16 @@ jobs:
             { "type": "ci", "section": "Continuous Integration", "hidden": "true" }
           ]
 
+    - name: checkout releae please PR branch
+      if: ${{ steps.rpa.outputs.pr }}
+      shell: bash
+      run: |
+        RPA_PR_JSON='${{ steps.rpa.outputs.pr }}'
+        headBranchName=$(echo $RPA_PR_JSON | tr -d '\n' | jq -r '.headBranchName')
+        echo "checking out PR headBranchName: $headBranchName"
+        git fetch
+        git checkout $headBranchName
+
     - run: yarn install
       if: ${{ steps.rpa.outputs.pr }}
 
