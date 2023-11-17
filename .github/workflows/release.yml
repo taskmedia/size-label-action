@@ -30,11 +30,6 @@ jobs:
             { "type": "ci", "section": "Continuous Integration", "hidden": "true" }
           ]
 
-    - uses: actions/setup-node@v4
-      if: ${{ steps.rpa.outputs.pr }}
-      with:
-        node-version: 12
-
     - run: yarn install
       if: ${{ steps.rpa.outputs.pr }}
 
