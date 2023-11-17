@@ -35,6 +35,9 @@ jobs:
       with:
         node-version: 12
 
+    - run: yarn install
+      if: ${{ steps.rpa.outputs.pr }}
+
     - run: yarn lint
       if: ${{ steps.rpa.outputs.pr }}
 
