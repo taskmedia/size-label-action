@@ -31,23 +31,24 @@ jobs:
           ]
 
     - uses: actions/setup-node@v4
-      if: ${{ steps.rpa.outputs.release_created }}
+      if: ${{ steps.rpa.outputs.pr }}
       with:
         node-version: 12
 
     - run: yarn lint
-      if: ${{ steps.rpa.outputs.release_created }}
+      if: ${{ steps.rpa.outputs.pr }}
 
     # - run: yarn test
     #   if: ${{ steps.release.outputs.release_created }}
 
     - run: npm prepublish
-      if: ${{ steps.rpa.outputs.release_created }}
+      if: ${{ steps.rpa.outputs.pr }}
 
     - name: Commit and push to pull request
-      if: ${{ steps.rpa.outputs.release_created }}
+      if: ${{ steps.rpa.outputs.pr }}
       uses: stefanzweifel/git-auto-commit-action@8756aa072ef5b4a080af5dc8fef36c5d586e521d # v5.0.0
       with:
+        add_options: --force
         commit_message: |
           chore(build): build dist for release
 
