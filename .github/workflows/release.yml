@@ -39,7 +39,7 @@ jobs:
     # - run: yarn test
     #   if: ${{ steps.release.outputs.release_created }}
 
-    - run: npm prepublish
+    - run: yarn prepublish
       if: ${{ steps.rpa.outputs.pr }}
 
     - name: Commit and push to pull request
