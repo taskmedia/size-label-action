@@ -18,7 +18,8 @@
   "dependencies": {
     "@octokit/rest": "^20.0.2",
     "diff": "^5.0.0",
-    "globrex": "^0.1.2"
+    "globrex": "^0.1.2",
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.38.1",
