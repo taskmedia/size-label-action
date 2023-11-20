@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.1](https://github.com/taskmedia/size-label-action/compare/v1.1.0...v1.1.1) (2023-11-20)
+
+
+### Miscellaneous Chores
+
+* **ci:** add (pr) lint and test wf ([95c84cb](https://github.com/taskmedia/size-label-action/commit/95c84cb102351cfd924701b8135e92a44d3c5757))
+* **ci:** remove actions/labeler ([#10](https://github.com/taskmedia/size-label-action/issues/10)) ([c2ffded](https://github.com/taskmedia/size-label-action/commit/c2ffded629845ade5c75bd16a44924712e94d140))
+* **deps:** bump @octokit/rest from 19.0.11 to 20.0.2 ([#8](https://github.com/taskmedia/size-label-action/issues/8)) ([3804bff](https://github.com/taskmedia/size-label-action/commit/3804bff4ba68c3429b0794c507e59a086e68685f))
+* **deps:** bump @vercel/ncc from 0.36.1 to 0.38.1 ([#9](https://github.com/taskmedia/size-label-action/issues/9)) ([ed0ebd4](https://github.com/taskmedia/size-label-action/commit/ed0ebd4b609e77412176dd99ab365577d20702bb))
+* **deps:** bump dotenv from 16.1.2 to 16.3.1 ([#7](https://github.com/taskmedia/size-label-action/issues/7)) ([272ae1d](https://github.com/taskmedia/size-label-action/commit/272ae1d5146a51070434b2de352d28fadbf12e6d))
+* **deps:** bump eslint from 8.41.0 to 8.54.0 ([#6](https://github.com/taskmedia/size-label-action/issues/6)) ([d5e78d5](https://github.com/taskmedia/size-label-action/commit/d5e78d5f7f37290171fcca3938cdcbb04e17f8fc))
+
 ## [1.1.0](https://github.com/taskmedia/size-label-action/compare/v1.0.0...v1.1.0) (2023-11-17)
 
 
