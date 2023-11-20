@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/taskmedia/size-label-action/compare/v1.1.1...v1.1.2) (2023-11-20)
+
+
+### Bug Fixes
+
+* resolve fetch is not set error (node20) ([#11](https://github.com/taskmedia/size-label-action/issues/11)) ([ef1d6fc](https://github.com/taskmedia/size-label-action/commit/ef1d6fca8745f18708d5eeb07a3c7d4f5ecb2fc6))
+
 ## [1.1.1](https://github.com/taskmedia/size-label-action/compare/v1.1.0...v1.1.1) (2023-11-20)
 
 
