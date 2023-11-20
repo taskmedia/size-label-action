@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+const fetch = require("node-fetch");
 const fs = require("fs");
 const process = require("process");
 
@@ -59,6 +60,7 @@ async function main() {
   const octokit = new Octokit({
     auth: `token ${GITHUB_TOKEN}`,
     baseUrl: process.env.GITHUB_API_URL || "https://api.github.com",
+    fetch: fetch,
     userAgent: "pascalgn/size-label-action"
   });
 
