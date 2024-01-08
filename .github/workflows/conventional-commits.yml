@@ -33,6 +33,6 @@ jobs:
         requireScope: false
 
     - name: Validate PR commit messages
-      uses: taskmedia/action-conventional-commits@ac561a9468c9c2454544d5b195532753e198e601 # v1.1.5
+      uses: taskmedia/action-conventional-commits@d95b75ef92a4bb268155ebdef5cd82a1a5c7ed9f # v1.1.10
       with:
         types: "feat|fix|revert|chore|docs|test|ci"
