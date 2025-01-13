@@ -54,7 +54,7 @@ jobs:
 
     - name: Commit and push to pull request
       if: ${{ steps.rpa.outputs.pr }}
-      uses: stefanzweifel/git-auto-commit-action@8756aa072ef5b4a080af5dc8fef36c5d586e521d # v5.0.0
+      uses: stefanzweifel/git-auto-commit-action@e348103e9026cc0eee72ae06630dbe30c8bf7a79 # v5.1.0
       with:
         add_options: --force
         commit_message: |
