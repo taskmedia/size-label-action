@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.3](https://github.com/taskmedia/size-label-action/compare/v1.1.2...v1.1.3) (2025-12-25)
+
+
+### Miscellaneous Chores
+
+* **deps:** bump actions/checkout from 4.1.1 to 6.0.1 ([#134](https://github.com/taskmedia/size-label-action/issues/134)) ([7cc8ac6](https://github.com/taskmedia/size-label-action/commit/7cc8ac6ac3bc4d786dc9c67b8f0032471bf641f2))
+* **deps:** bump actions/stale from 8.0.0 to 10.1.1 ([#135](https://github.com/taskmedia/size-label-action/issues/135)) ([378ceed](https://github.com/taskmedia/size-label-action/commit/378ceeda681a1ec740617ffc3ae6abe5341e0cde))
+* **deps:** bump stefanzweifel/git-auto-commit-action ([#137](https://github.com/taskmedia/size-label-action/issues/137)) ([4f04d67](https://github.com/taskmedia/size-label-action/commit/4f04d67359c62b798e004ffb29cbf6437f1c27d4))
+
 ## [1.1.2](https://github.com/taskmedia/size-label-action/compare/v1.1.1...v1.1.2) (2023-11-20)
 
 
